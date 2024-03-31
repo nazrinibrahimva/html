@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Information Form</title>
+</head>
+<body>
+
+<form action="/submit" method="post">
+  <label for="first_name">First name:</label><br>
+  <input type="text" id="first_name" name="first_name" required><br>
+  
+  <label for="last_name">Last name:</label><br>
+  <input type="text" id="last_name" name="last_name" required><br>
+  
+  <label for="gender">Gender:</label><br>
+  <input type="radio" id="male" name="gender" value="male" required>
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female" required>
+  <label for="female">Female</label><br>
+  
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br>
+  
+  <label for="dob">Date of Birth:</label><br>
+  <input type="date" id="dob" name="dob" required><br>
+  
+  <label for="address">Address:</label><br>
+  <textarea id="address" name="address" rows="4" required></textarea><br>
+  
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
